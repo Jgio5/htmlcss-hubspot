@@ -8,11 +8,21 @@ body{
   font-family: 'Mukta', sans-serif;
 }
 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
 .container{
   width: 80%;
   margin: 0 auto;
 }
-
+.container_70{
+  width: 70%;
+  margin: 0 auto;
+}
 /* header */
 /* Header - section 1 */
 .section_header_1{
@@ -357,6 +367,77 @@ main .col_top_grey_space{
 /* Inizio white */
 .white_space{
   width: 100%;
-  height: 500px;
+  height: 100%;
   background-color: #ffff;
+}
+
+/* Inizio Top white */
+.white_top{
+  padding: 20px 0;
+}
+
+.white_top_left{
+  float: left;
+  text-align: center;
+  width: 15%;
+  height: 200px;
+}
+
+.white_top_right{
+  float: right;
+  width: 60%;
+  text-align: right;
+}
+
+.row_customers{
+  height: 100px;
+  width: 100%;
+}
+.logo_customers{
+  display: inline;
+  float: left;
+  height: 100px;
+  width: 25%;
+  padding: 0 10px;
+}
+.logo_customers img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+/* Fine Top white */
+
+/* Inizio Bottom white */
+
+ .white_bottom_left{
+  float: left;
+  padding-top: 30px;
+  width: 40%;
+  height: 400px;
+}
+
+.white_bottom_left p{
+  padding: 30px 0;
+}
+.white_bottom p:last-child{
+  font-size: 13px;
+}
+
+.white_bottom_right{
+  float: right;
+  width: 25%;
+  height: 400px;
+}
+
+.white_bottom_right img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* Fine Bottom white *
+
+/* Inizio footer */
+footer{
+  height: 500px;
+  background-color: #32495b;
 }
