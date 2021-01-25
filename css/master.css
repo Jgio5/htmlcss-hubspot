@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Mukta', sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+/* Header - section 1 */
+.section_header_1{
+  height: 80px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid #32495b;
+}
+
+.section_header_1 .col_left,
+.section_header_2 .col_left{
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+.section_header_1 .col_right,
+.section_header_2 .col_right{
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+nav{
+height: 80px;
+line-height: 80px;
+}
+nav li{
+  display: inline;
+  list-style: none;
+}
+.language-us li{
+  padding-right: 10px;
+}
+.login-free li,
+.menu li{
+  padding-left: 10px;
+}
+nav a{
+  color: #32495b;
+  text-decoration: none;
+}
+
+nav.language-us .language::before{
+  content: "\1F30E";
+  padding-right: 2px;
+}
+.plus::after{
+  content: "\02C5";
+  padding: 0 12px;
+}
+nav.language-us .language{
+  border-right: 1px solid #32495b;
+}
+
+.section_header_1_right,
+.section_header_2_right{
+  text-align: right;
+}
+/* Fine Header - section 1 */
+
+/* bottoni */
+.btn{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #fe775a;
+}
+.btn_log{
+  color: #fe775a;
+}
+.btn_free{
+  color: white;
+  text-decoration: none;
+  background-color: #fe775a;
+}
+.btn_large{
+  padding: 20px;
+}
+.btn_search::before{
+  content: "\01F50D";
+}
+/* Fine Header - section 1 */
+/* Fine header */
+
+/* Header - section 2 */
+.section_header_2{
+  height: 80px;
+}
+
+#logo{
+  height: 80px;
+  width: 120px;
+  line-height: 80px;
+}
+#logo img{
+  height: 100%;
+  width: 100%;
+}
+/* Fine Header - section 2 */
+
+/* Header - section 3 */
+.section_header_3{
+  height: 700px;
+  width: 100%;
+  background-image: url('../img/jumbotron.png');
+  background-position: left;
+  background-repeat: round;
+  object-fit: cover;
+}
+
+.banner_container{
+  position: relative;
+  height: 100%;
+}
+
+.section_header_3 .banner{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 300px;
+  width: 50%;
+}
+
+.section_header_3 .banner h1{
+font-size: 50px;
+}
+.section_header_3 .banner p{
+font-size: 15px;
+padding: 30px 0;
+}
+.section_header_3 .banner p:last-child{
+font-size: 12px;
+}
+/* Fine Header - section 3 */
+/* Fine Header */
+
+/* Inizio Main */
+main .green_space{
+  width: 100%;
+  height: 70px;
+  background-color: #afebe4;
+  border: 2px solid #32495b;
+}
+
+main .grey_space{
+  height: 600px; /*da cancellare */
+  background-color: #f4f9fd;
+}
+
+main .slogan_grey_space{
+  text-align: center;
+  padding: 20px 0;
+}
+.slogan_grey_space img{
+  height: 15%;
+  width: 15%;
+}
+.slogan_grey_space h2{
+  font-size: 40px;
+}
+
+main .col_top_grey_space{
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 30px;
+  border: 1px solid black;
+}
+
+.col_top_grey_space .col_left{
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+}
+.image img{
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.col_top_grey_space .col_right{
+  float: left;
+  width: 70%;
+  height: 100%;
+  border: 1px solid black;
+}
