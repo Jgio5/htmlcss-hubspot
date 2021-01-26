@@ -44,7 +44,8 @@ body{
   height: 100%;
 }
 
-nav{
+.section_header_1 nav,
+.section_header_2 nav{
 height: 80px;
 line-height: 80px;
 }
@@ -101,6 +102,12 @@ nav.language-us .language{
 }
 .btn_search::before{
   content: "\01F50D";
+}
+
+.btn_support{
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(222, 221, 220);
 }
 /* Fine Header - section 1 */
 /* Fine header */
@@ -438,6 +445,68 @@ main .col_top_grey_space{
 
 /* Inizio footer */
 footer{
-  height: 500px;
+  height: 600px;
+  color: rgb(222, 221, 220);
   background-color: #32495b;
 }
+
+/* Inzio Top Footer */
+.footer_top{
+  height: 400px;
+  padding-top: 30px;
+}
+
+.col_menu{
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.col_menu h3{
+  color: white;
+}
+.col_menu li{
+  display: block;
+  padding: 10px 0;
+}
+
+#social{
+  padding-top: 12px;
+}
+#social span{
+  padding-right: 10px;
+}
+
+/* Fine Top Footer */
+
+/* Inizio Bottom Footer */
+.footer_bottom{
+  height: 200px;
+}
+
+.languages{
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.footer_bottom a{
+  padding: 0 20px;
+  color: rgb(222, 221, 220);
+}
+
+.copyright{
+  padding-top: 20px;
+  height: 60%;
+}
+
+footer .col_left{
+  float: left;
+  width: 30%;
+}
+footer .col_right{
+  float: right;
+  width: 40%;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+}
+/* Fine Bottom Footer */
