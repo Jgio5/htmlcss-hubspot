@@ -25,7 +25,11 @@ body{
 /* header */
 /* Header - section header 1 */
 .section_header_1{
+  z-index: 999;
+  position: fixed;
+  top: 0;
   height: 80px;
+  width: 100%;
   background-color: #f4f9fd;
   border-bottom: 1px solid #32495b;
 }
@@ -248,6 +252,17 @@ main .col_top_grey_space{
   padding: 10px 0;
   text-transform: uppercase;
 }
+
+.col_right .features h4{
+  position: relative;
+}
+.col_right .features h4::after{
+  content: "__________________________________________";
+  position: absolute;
+  top: 0;
+  padding-left: 40px;
+}
+
 .col_right .features li{
   list-style: none;
   padding-right:10px;
